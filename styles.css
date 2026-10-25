@@ -12,3 +12,4 @@ dialog{border:1px solid #5c5c5c;background:#171717;color:white;width:min(760px,c
 .chart-node{width:180px;height:180px}.chart-node .node-name{font-size:19px;border-radius:0 0 90px 90px}.chart-node .node-name small{font-size:10px}.chart-node .node-detail{top:190px}
 @media(max-width:680px){.hero-title{top:6%;font-size:20vw}.chart-node .node-name{font-size:19px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+@media(max-width:680px){.network-preview img{width:clamp(58px,19vw,85px);height:auto;aspect-ratio:1}.network-preview img:nth-child(2){width:clamp(100px,28vw,130px);height:auto;aspect-ratio:1}.chart-title-block h1{font-size:clamp(23px,7vw,29px)}}
